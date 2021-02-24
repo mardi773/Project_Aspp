@@ -1,0 +1,15 @@
+language: python
+
+python:
+	- "3.9"
+
+notifications:
+	email: false
+
+install:
+	- pip install numpy
+	- pip install pytest
+	- pip install matplotlib
+
+script:
+	- py.test
